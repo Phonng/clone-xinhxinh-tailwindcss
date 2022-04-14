@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.section {
+		@apply pt-6 w-full flex flex-col
+	}
+	.section__body {
+		@apply flex mt-3 mx-auto
+	}
+	.section__body_preview {
+		@apply relative object-contain
+	}
+}

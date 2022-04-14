@@ -21,7 +21,7 @@ export default function Home() {
         />
         <title>Live là Xinh - Xinh là Live ❤️</title>
       </Head>
-      <div className="">
+      <div className="font-sans">
         <Section1 />
       </div>
     </>
